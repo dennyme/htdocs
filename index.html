@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Server</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('http://xoxox.me/src/wall.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .server-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .server-card h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .server-card img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    .server-info {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    .server-button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background-color: #f60;
+      border-radius: 30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .server-button:hover {
+      background-color: #e55c00;
+    }
+  </style>
+</head>
+<body>
+  <div class="server-card">
+    <h2><img src="http://xoxox.me/src/logo.png" alt="Logo"> Minecraft Server</h2>
+    <div class="server-info">
+      IP: xoxox.me<br>
+      Port: 19132
+    </div>
+    <a href="minecraft://?addExternalServer=xoxox.me|xoxox.me:19132" class="server-button">Add to Game</a>
+  </div>
+</body>
+</html>
